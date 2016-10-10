@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prepare To Start"
+        android:id="@+id/Title"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Intro"
+        android:text="The Test has 4 sections proceeding in the following order:"
+        android:layout_below="@+id/Title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Grammar"
+        android:text="       Grammar"
+        android:layout_below="@+id/Intro"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Listening"
+        android:text="       Listening"
+        android:layout_below="@+id/Grammar"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Reading"
+        android:text="       Reading"
+        android:layout_below="@+id/Listening"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Writing"
+        android:text="       Writing"
+        android:layout_below="@+id/Reading"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/GrammarBox"
+        android:layout_alignBaseline="@+id/Grammar"
+        android:layout_toRightOf="@+id/Grammar"
+        android:layout_marginLeft="20dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ListeningBox"
+        android:layout_alignBaseline="@+id/Listening"
+        android:layout_toRightOf="@+id/Listening"
+        android:layout_marginLeft="23dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ReadingBox"
+        android:layout_alignBaseline="@+id/Reading"
+        android:layout_toRightOf="@+id/Reading"
+        android:layout_marginLeft="32dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/WritingBox"
+        android:layout_alignBaseline="@+id/Writing"
+        android:layout_toRightOf="@+id/Writing"
+        android:layout_marginLeft="42dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This test will take approximately __ minutes to complete"
+        android:layout_below="@+id/Writing"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Layout"
+        android:id="@+id/Layout"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="When you are answering the test questions, the numbers at the lower left of your screen will tell you:"
+        android:layout_below="@+id/Layout"
+        android:id="@+id/Intro"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="       1/25            14:45
+     Question   Time Left"
+        android:textSize="25dp"
+        android:id="@+id/QuestionTime"
+        android:layout_below="@id/Intro"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A. The number of the current question.
+B. The total number of questions in the section.
+C. The amount of time remaining in the section."
+        android:layout_below="@+id/QuestionTime"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>
