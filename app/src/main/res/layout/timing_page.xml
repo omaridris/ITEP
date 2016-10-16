@@ -35,4 +35,13 @@ B. The total number of questions in the section.
 C. The amount of time remaining in the section."
         android:layout_below="@+id/QuestionTime"
         android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginBottom="82dp"
+        android:id="@+id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
