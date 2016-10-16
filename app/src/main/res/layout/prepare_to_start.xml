@@ -90,5 +90,15 @@
         android:layout_height="wrap_content"
         android:text="This test will take approximately __ minutes to complete"
         android:layout_below="@+id/Writing"
+        android:id="@+id/TimeLimit"
         android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginBottom="82dp"
+        android:id="@+id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
